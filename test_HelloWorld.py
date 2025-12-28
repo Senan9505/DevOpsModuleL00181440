@@ -6,8 +6,9 @@ class TestHelloWorld(unittest.TestCase):
         self.assertEqual(get_message(), "Hello World")
 
     def test_check_condition_yes(self):
-        #The condition is 1+6<6, which is False, so should return "No"
+        #Condition is 1+6<6, which is False, should return "No"
         self.assertEqual(check_condition(), "No")
 
 if __name__ == "__main__":
     unittest.main()
+
